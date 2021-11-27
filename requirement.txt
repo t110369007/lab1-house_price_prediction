@@ -1,0 +1,11 @@
+requirement.txt
+
+Use the following steps in your googld cloud
+1. upload ML_lab1_final_1.ipynb 
+2. create /data folder
+3. upload all the data files under /data
+   including "train-v3.csv", "valid-v3.csv", "test-v3.csv", "metadata.csv","SampleSubmission.csv"
+4. 選擇 "執行階段"-> "變更執行階段類型"->"硬體加速器" GPU
+5. 選擇 "執行階段"-> "全部執行"
+
+   
