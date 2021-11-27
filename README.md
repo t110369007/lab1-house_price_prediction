@@ -1,5 +1,8 @@
-# lab1-house_price_prediction - Program Procedure
-
+# lab1-house_price_prediction 
+## Environment: 
+    running at google colab
+    .ipynb and data file store in google cloud
+## Program Procedure
 ## 1) Read data from .csv
 
 ![image](https://user-images.githubusercontent.com/93765298/143665150-5883a01c-9b24-4508-a565-ac577308d7a1.png)
