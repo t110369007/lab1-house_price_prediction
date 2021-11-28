@@ -1,7 +1,53 @@
 # lab1-house_price_prediction 
 ## Environment: 
-    running at google colab
-    .ipynb and data file store in google cloud
+    - running at google colab ML_lab1_final_1.ipynb 
+    - data file store in google cloud: including
+      tran-v3.csv, valid-v3.csv, test-v3.csv, metadata.csv, sampleSunmission.csv
+      
+     
+## 學習心得:
+## 1. 前處理非常重要，必免Grabage in, Grabage out.
+      - 缺失值或不完整的資料 - Incomplete/Missing Value
+      - 錯誤或含有不合法字元（亂碼、特殊符號）- Noisy
+      - 資料型態不一致 - Inconsisten
+      
+## 2. 面對 Missing Value 的處理策略主要可以分成「刪除」或「填補」兩種策略，可以分為以下手法：
+     -直接刪除含有缺失值的資料或欄位
+     -人工填補遺失值
+     -常數（0/-1）或通用值（unknown）填補遺失值
+     -類似資料/全部資料的統計值填補遺失值
+## 3. 資料型態不一致該怎麼處理
+     - 可以將資料分成「數字」、「字串」和「布林」三種類型。
+     - 直接將「字串」轉換成一個對應的數字即可，這種方法我們稱為標籤編碼法（Label Encoding）
+     - 無序類別字串轉數值會採用另一種方法，稱為是獨熱編碼（One-Hot Encoding）
+## 4. 移除離群值
+## 5. 移除相關性低的特徵參數
+## 5. 變數值Normalization
+## 6. 跑模型時，利用不同的Hyper-Parameters, 尋求MAE的最佳化。
+    Layer number
+    Node number for each layer.
+    Loss function
+    Batch Size
+    Epoch
+    Metrics
+    Weight Normalization
+    DropOut
+    Learning Rate
+    Adaptive 
+    Early Stop
+    Activation
+
+
+## 7. 可用callback - tensorboard 去看 Training data 和 validation data 關係。通常可以找validation 開始轉高點，下次當作epoch數。
+
+##
+##
+##
+##
+##
+##
+
+
 ## Program Procedure
 ## 1) Read data from .csv
 
