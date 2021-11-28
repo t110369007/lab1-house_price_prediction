@@ -8,4 +8,11 @@ Use the following steps in your googld cloud
 4. 選擇 "執行階段"-> "變更執行階段類型"->"硬體加速器" GPU
 5. 選擇 "執行階段"-> "全部執行"
 
+matplot==0.1.9
+numpy==1.18.5
+pandas==1.0.5
+Keras-Proprocessing==1.1.2
+seaborn=0.10.1
+
+
    
