@@ -45,8 +45,9 @@
 
 ##
 ##
-##
-##
+
+![house-price-diagram](https://user-images.githubusercontent.com/93765298/143769234-4a8ca14d-3315-49e0-89cc-e9b64bf1da10.JPG)
+
 ##
 ##
 
