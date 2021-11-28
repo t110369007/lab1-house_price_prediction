@@ -3,7 +3,10 @@
     - running at google colab ML_lab1_final_1.ipynb 
     - data file store in google cloud: including
       tran-v3.csv, valid-v3.csv, test-v3.csv, metadata.csv, sampleSunmission.csv
-      
+## 目前僅在colab 執行
+    - 目前版本，僅提供 .ipynb 檔，可執行在 google colab 上。
+      train.sh, test.sh, requirement.txt 也以colab 執行環境做說明
+      未來若能在 ubuntu 環境執行，會再提供 .py 及相關相對的 train.sh, test.sh, requirement.txt 說明
      
 ## 學習心得:
 ## 1. 前處理非常重要，必免Grabage in, Grabage out.
